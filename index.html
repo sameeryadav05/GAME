@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1>ROCk PAPER SCISSOR</h1>
+        </header>
+        <div class="main">
+            <div class="you">
+                <div class="label"><p>YOU</p></div>
+                <div class="users">
+                    <p id="user-score">-</p>
+                </div>
+        
+            </div>
+            <div class="dashboard">
+                <div class="images">
+                    <div class="imgs" id="Rock">
+                        <img src="rock_main.jpeg">
+                        <h2 class="choice">Rock</h2>
+                        
+                    </div>
+                    <div class="imgs" id="Paper">
+                        <img src="paper_.jpeg">
+                        <h2 class="choice">Paper</h2>
+
+                    </div>
+                    <div class="imgs" id="Scissor">
+                        <img src="scissor_.jpeg">
+                        <h2 class="choice">Scissor</h2>
+
+                    </div>
+                </div>
+                <div class="result-box">
+                    <div class="choices">
+                        <!-- <p>YOU&nbsp;: <span class="user-choice">-</span></p> -->
+                        <!-- <p>Computer &nbsp;: <span class="computer-choice">-</span></p> -->
+                    </div>
+                </div>
+                <div class="start"><button id="startBUtton">START</button></div>
+                <div class="result"></div>
+
+            </div>
+            <div class="computer">
+                <div class="label"><p>Computer</p></div>
+                <div class="computers">
+                    <p id="computer-score">-</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
